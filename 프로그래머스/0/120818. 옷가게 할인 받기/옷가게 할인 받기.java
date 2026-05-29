@@ -3,11 +3,11 @@ class Solution {
         int answer = 0;
         
         if(price >= 500000) {
-            answer = (int)(price * 0.8);
+            answer = (price * 80)/100;
         } else if(price >= 300000) {
-            answer = (int)(price * 0.9);
+            answer = (price * 90)/100;
         } else if(price >= 100000) {
-            answer = (int)(price * 0.95);
+            answer = (price * 95)/100;
         } else {
             answer = price;
         }
